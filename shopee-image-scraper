@@ -1,0 +1,52 @@
+// ==UserScript==
+// @name         Shopee image downloader
+// @require      https://code.jquery.com/jquery-3.6.1.min.js
+// @require      https://requirejs.org/docs/release/2.3.5/minified/require.js
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Download images from shopee auction
+// @run-at       document-start
+// @author       https://github.com/b3valsek
+// @match        https://shopee.pl/*
+// @match        http://shopee.pl/*
+// @grant        GM_addStyle
+// @grant        GM_download
+// ==/UserScript==
+$(document).ready(function () {
+    //create button to trigger script
+    $('body').append('<input type="button" value="Download images" id="download-images-button">');
+    $("#download-images-button").css("position", "fixed").css("top", 0).css("left", 0).css("z-index", 999999999);
+    $('#download-images-button').click(function () {
+
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        function main() {
+            document.getElementsByClassName('rvLuE6')[0].click();
+            const elements = document.getElementsByClassName('_37ud+L');
+            const numberOfElements = elements.length;
+            path = replaceSpacesWithHyphens(document.title) + '/';
+            for (let i = 0; i < numberOfElements; i++) {
+                img = document.getElementsByClassName('b5510K')[0];
+                style = img.currentStyle || window.getComputedStyle(img, false),
+                    url = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                downloadImages(url, i.toString(), path);
+                document.getElementsByClassName('s7ZkTF')[0].click();
+            }
+        }
+        function downloadImages(src, name, path) {
+            arg = { url: src, name: './pobrane/' + path + name + '.jpeg' };
+            console.log("url: " + arg['url'] + " , name: " + arg['name'])
+            var result = GM_download(arg);
+            console.log(result);
+        }
+        function replaceSpacesWithHyphens(str) {
+            return str.replace(/ /g, '-');
+        }
+
+        main();
+        main();
+    })
+});
+
