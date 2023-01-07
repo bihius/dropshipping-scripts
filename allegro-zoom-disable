@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         Disable zoom button on Allegro auction images
+// @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @run-at       document-start
+// @author       https://github.com/b3valsek/
+// @match        https://allegro.pl/oferta/*
+// @match        http://allegro.pl/oferta/*
+// @grant        GM_addStyle
+// ==/UserScript==
+$(document).ready(function () {
+    $('body').append('<input type="button" value="Disable zoom" id="zoom-button">')
+    $("#zoom-button").css("position", "fixed").css("top", 0).css("left", 0).css("z-index", 999999999);
+    $('#zoom-button').click(function () {
+        $("._e5e62_VLJbd").hide();
+
+    });
+});
+
+
+
