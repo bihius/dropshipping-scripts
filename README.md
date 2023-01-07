@@ -43,7 +43,7 @@ https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
 5. Kliknij na rozszerzenie tampermonkey w Twojej przeglądarce, oraz wybierz dodaj nowy skrypt
 6. Wklej kod oraz kliknij zapisz
 
-## Instrukcja używania
+## Instrukcja użytkowania
 
 Każdy ze skryptów tworzy przycisk na odpowiedniej stronie. <br />
 Aby uruchomić skrypt, po prostu użyj przycisku. 
