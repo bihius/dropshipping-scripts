@@ -1,12 +1,12 @@
-# A few tampermonkey scripts for dropshippers
+# Tampermonkey scripts for dropshippers / Skrypty tampermonkey dla sprzedawców 
 
-- [Polska wersja poniżej](#Skrypty dla sprzedawców)
+[Polska wersja](https://github.com/b3valsek/dropshiping-scripts/edit/main/README.md#Instalacja)
 
 ## Installation
 
-1. Install tampermonkey extension 
-https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
-https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
+1. Install tampermonkey extension <br /> 
+chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
+firefox: https://addons.mozilla.org/pl/firefox/addon/tampermonkey/ <br />
 2. Click on script you are interested 
 3. Select raw
 4. Copy all code
@@ -15,7 +15,7 @@ https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
 
 ## Usage
 
-Each script has button on target site. 
+Each script has button on target site.  <br />
 To use script just click button to trigger script 
 
 ## Support
@@ -28,26 +28,24 @@ Fork the project, commit your changes, and [open a pull request](https://github.
 
 ## Donate 
 
-If you think my software is useful, you can just buy me a coffee:
-https://buycoffee.to/b3valsek
+If you think my software is useful, you can just buy me a coffee: <br />
+https://buycoffee.to/b3valsek <br />
 Litecoin address: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
 
 
-## Skrypty dla sprzedawców
-
 ## Instalacja 
-1. Zainstaluj rozszerzenie tampermonkey 
-https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+1. Zainstaluj rozszerzenie tampermonkey <br />
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
 https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
 2. Kliknij na interesujący Cię skrypt
 3. Wybierz raw
 4. Skopiuj cały kod
-5. Kliknij na rozszerzenie tampermonkey w Twojej przeglądarce, oraz kliknij dodaj nowy skrypt
+5. Kliknij na rozszerzenie tampermonkey w Twojej przeglądarce, oraz wybierz dodaj nowy skrypt
 6. Wklej kod oraz kliknij zapisz
 
 ## Instrukcja używania
 
-Każdy ze skryptów tworzy przycisk na odpowiedniej stronie. 
+Każdy ze skryptów tworzy przycisk na odpowiedniej stronie. <br />
 Aby uruchomić skrypt, po prostu użyj przycisku. 
 
 ## Pomoc
@@ -60,6 +58,6 @@ Rozszerz projekt, zatwierdź zmiany, oraz [open a pull request](https://github.c
 
 ## Wsparcie 
 
-Jeśli uznasz moje skrypty za przydatne, możesz podarować mi wirtualną kawę: 
-https://buycoffee.to/b3valsek
+Jeśli uznasz moje skrypty za przydatne, możesz podarować mi wirtualną kawę: <br />
+https://buycoffee.to/b3valsek <br />
 Adres Litecoin: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
