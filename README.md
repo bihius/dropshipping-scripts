@@ -1,6 +1,6 @@
 # A few tampermonkey scripts for dropshippers
 
-- [Polska wersja poniżej](# Skrypty dla sprzedawców)
+- [Polska wersja poniżej](#Skrypty dla sprzedawców)
 
 ## Installation
 
@@ -33,7 +33,7 @@ https://buycoffee.to/b3valsek
 Litecoin address: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
 
 
-# Skrypty dla sprzedawców
+## Skrypty dla sprzedawców
 
 ## Instalacja 
 1. Zainstaluj rozszerzenie tampermonkey 
