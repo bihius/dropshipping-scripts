@@ -44,7 +44,6 @@ $(document).ready(function () {
         function replaceSpacesWithHyphens(str) {
             return str.replace(/ /g, '-');
         }
-
         main();
         main();
     })
