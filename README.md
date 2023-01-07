@@ -4,19 +4,19 @@
 
 ## Installation
 
-1. Install tampermonkey extension <br /> 
-chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
-firefox: https://addons.mozilla.org/pl/firefox/addon/tampermonkey/ <br />
+1. Install Tampermonkey extension <br /> 
+Google Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
+Firefox: https://addons.mozilla.org/pl/firefox/addon/tampermonkey/ <br />
 2. Click on script you are interested 
 3. Select raw
 4. Copy all code
-5. Click on tampermonkey extension, and select create new script
+5. Click on Tampermonkey extension, and select create new script
 6. Paste code and save
 
 ## Usage
 
-Each script has button on target site.  <br />
-To use script just click button to trigger script 
+Each script has a button on target site.  <br />
+To use script, just click button to trigger script 
 
 ## Support
 
@@ -35,12 +35,12 @@ Litecoin address: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
 
 ## Instalacja 
 1. Zainstaluj rozszerzenie tampermonkey <br />
-https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
-https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
+Google chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo <br />
+Firefox: https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
 2. Kliknij na interesujący Cię skrypt
 3. Wybierz raw
 4. Skopiuj cały kod
-5. Kliknij na rozszerzenie tampermonkey w Twojej przeglądarce, oraz wybierz dodaj nowy skrypt
+5. Kliknij na rozszerzenie Tampermonkey w Twojej przeglądarce, oraz wybierz dodaj nowy skrypt
 6. Wklej kod oraz kliknij zapisz
 
 ## Instrukcja użytkowania
