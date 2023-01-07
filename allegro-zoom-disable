@@ -14,7 +14,6 @@ $(document).ready(function () {
     $("#zoom-button").css("position", "fixed").css("top", 0).css("left", 0).css("z-index", 999999999);
     $('#zoom-button').click(function () {
         $("._e5e62_VLJbd").hide();
-
     });
 });
 
