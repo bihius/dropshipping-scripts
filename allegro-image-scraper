@@ -1,0 +1,76 @@
+// ==UserScript==
+// @name         Allegro images downloader/Pobieranie zdjęć Allegro
+// @require      https://code.jquery.com/jquery-3.6.1.min.js
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Script add button for simple images download from Allegro auction/Skrypt dodaje przycisk na stronę aukcji Allegro który pobiera zdjęcia produktu
+// @run-at       document-start
+// @author       https://github.com/b3valsek
+// @match        https://allegro.pl/oferta*
+// @match        http://allegro.pl/oferta*
+// @grant        GM_addStyle
+// @grant        GM_download
+// ==/UserScript==
+$(document).ready(function () {
+    //create button to trigger script
+    $('body').append('<input type="button" value="Download images" id="download-images-button">')
+    $("#download-images-button").css("position", "fixed").css("top", 0).css("left", 100).css("z-index", 999999999);
+    $('#download-images-button').click(function () {
+
+        function loadImages() {
+            // Get all elements with the "_e5e62_d3wWH" class
+            let elements = document.getElementsByClassName("_e5e62_d3wWH");
+
+            // Loop through the elements and simulate clicking on each one
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].click();
+            }
+        }
+        //just sleep
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+//I tried to achive downloading into directory named by product name
+        function getProductName() {
+            //get current URL
+            var url = window.location.href;
+            return getUrlAfterLastSlash(url);
+        }
+
+        function getUrlAfterLastSlash(url) {
+            // Use the JavaScript string method `split()` to split the URL into an array
+            // of substrings at each slash character
+            const urlParts = url.split('/');
+
+            // Return the last element of the array (which will be the part of the URL
+            // after the last slash)
+            return urlParts[urlParts.length - 1];
+        }
+
+
+        async function downloadImages(dir) {
+            // Get all elements with the class "_e5e62_koq45"
+            const elements = document.querySelectorAll('._e5e62_koq45');
+
+            // var for filename
+            var i = 0;
+
+            // Loop through the elements and download each image
+            for (const element of elements) {
+                // Check if the element is an image
+                if (element.tagName === 'IMG') {
+                    await sleep(500);
+                    // create variable with URL and filename
+                    var arg = { url: element.src, name: i.toString() };
+                    console.log(arg);
+                    i++;
+                    // download the image
+                    GM_download(arg);
+                }
+            }
+        }
+        loadImages();
+        downloadImages(getProductName());
+    })
+});
