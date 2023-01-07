@@ -1,6 +1,6 @@
 # A few tampermonkey scripts for dropshippers
 
-## Polish version below / Polska wersja poniżej 
+- [Polska wersja poniżej](# Skrypty dla sprzedawców)
 
 ## Installation
 
