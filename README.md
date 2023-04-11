@@ -1,6 +1,6 @@
 # Tampermonkey scripts for dropshippers / Skrypty tampermonkey dla sprzedawców 
 
-[Polska wersja](https://github.com/b3valsek/dropshiping-scripts/main/README.md#Instalacja)
+Polska wersja poniżej
 
 ## Installation
 
