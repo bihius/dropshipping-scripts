@@ -22,15 +22,6 @@ To use script, just click button to trigger script
 
 Please [open an issue](https://github.com/b3valsek/dropshiping-scripts/issues/new) for questions and concerns.
 
-## Contributing
-
-Fork the project, commit your changes, and [open a pull request](https://github.com/b3valsek/dropshiping-scripts/compare/).
-
-## Donate 
-
-If you think my software is useful, you can just buy me a coffee: <br />
-https://buycoffee.to/b3valsek <br />
-Litecoin address: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
 
 
 ## Instalacja 
@@ -47,17 +38,3 @@ Firefox: https://addons.mozilla.org/pl/firefox/addon/tampermonkey/
 
 Każdy ze skryptów tworzy przycisk na odpowiedniej stronie. <br />
 Aby uruchomić skrypt, po prostu użyj przycisku. 
-
-## Pomoc
-
-Proszę [open an issue](https://github.com/b3valsek/dropshiping-scripts/issues/new) aby zadać pytanie lub zgłosić problem. 
-
-## Pomoc w tworzeniu
-
-Rozszerz projekt, zatwierdź zmiany, oraz [open a pull request](https://github.com/b3valsek/dropshiping-scripts/compare/).
-
-## Wsparcie 
-
-Jeśli uznasz moje skrypty za przydatne, możesz podarować mi wirtualną kawę: <br />
-https://buycoffee.to/b3valsek <br />
-Adres Litecoin: Lfbkz1nwHP32JWzzMVFjH2PszUV5w7Nt4d
